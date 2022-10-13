@@ -1,22 +1,18 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
 
 body{
-  background-color: steelblue;
+  background-color: #021a3f;
   color:white;
 }
 
 .dc-container{
   width:80%;
-  border:1px dotted white;
+  border:1px dotted #4EBDF2;;
   display:flex;
   flex-wrap: wrap;
   margin:30px auto;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .box{
@@ -27,23 +23,31 @@ body{
   align-items: center;
   justify-content: center;
   font-size: 120%;
-  margin:15px;
+  margin:10px;
 }
 
-.tomato{
-  background-color: tomato;
-  color:black;
+.pink{
+  background-color: #f573f5;
+ 
 }
 
-.yellow{
-  background-color: yellow;
-  color:black;
+.lilla{
+  background-color: #a64ee9;
+ 
 }
 
-.brown{
-  background-color: brown;
+.violet{
+  background-color: #6855d2;
 }
 
-.aqua{
-  background-color: aquamarine;
+.lightblue{
+  background-color: #4EBDF2;
+}
+
+h1{
+  font-size:400%;
+  background-image: linear-gradient(to left, #f387f3, #cc96f6, #6B55E6, #297EFC, #98d3ee);
+  color:transparent;
+  -webkit-background-clip: text;
+
 }

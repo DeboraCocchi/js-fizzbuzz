@@ -18,19 +18,19 @@ for(i=1; i<=100; i++){
   if( !(i % 3) && !(i % 5)){
     console.log(i , 'multiplo di entrambi --- FizzBuzz');
     box.innerHTML='FizzBuzz';
-    box.classList.add('brown');
+    box.classList.add('violet');
   } else if(!(i % 3) && (i % 5)){
     console.log(i , 'multiplo di 3 --- Fizz');
     box.innerHTML='Fizz';
-    box.classList.add('yellow');
+    box.classList.add('lilla');
   }else if((i % 3) && !(i % 5)){
     console.log(i , 'multiplo di 5 --- Buzz');
     box.innerHTML='Buzz';
-    box.classList.add('tomato');
+    box.classList.add('pink');
   }else{
     console.log(i);
     box.innerHTML=i;
-    box.classList.add('aqua');
+    box.classList.add('lightblue');
   }
 
   container.append(box);
