@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: steelblue;
+  color:white;
+}
+
+.dc-container{
+  width:80%;
+  border:1px dotted white;
+}
+
+.box{
+  width:150px;
+  height:150px;
+  border-radius: 10px;
+}
+
+.tomato{
+  background-color: tomato;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
